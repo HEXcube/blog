@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Hi, I'm Rohan "HEXcube" Villoth. I'm a web frontend developer/designer. I contribute to open source projects in my free time.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+https://hexcube.github.io
