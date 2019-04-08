@@ -19,7 +19,7 @@ avatar: https://hexcube.github.io/assets/logos/hexcube-logo-small.svg
 footer-links:
   dribbble:
   email:
-  facebook: hexcube
+  facebook: HEXcube
   flickr:
   github: HEXcube
   instagram:
@@ -27,7 +27,7 @@ footer-links:
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: TheHEXcube
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow: users/8386844/hexcube
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
