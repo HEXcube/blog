@@ -1,10 +1,22 @@
 ---
 layout: post
-title: My first blog post!
+title: How I enabled "Google Play Services for AR" on my Mi A2
 ---
 
-I've been planning to create a blog for a long time, but never found the time to do it. Today I finally went ahead and did it! I followed this guide - [Five Minutes to Your Own Website](https://towardsdatascience.com/five-minutes-to-your-own-website-fd0b43cbd886) and forked this repo - [Jekyll Now repository](https://github.com/barryclark/jekyll-now) to quickly setup this blog.
+Step 1: Enable Camera2 API
+-------------
+https://www.thecustomdroid.com/enable-camera2-api-xiaomi-mi-a2-lite-guide/
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+Step 2: Install Google Camera
+-------------
+Google Camera mods optimized for Mi A2: https://www.celsoazevedo.com/files/android/google-camera/dev-the_dise/
 
-I modified the the provided Hello World markdown file in /_posts/ and easily converted it into this post. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+Step 3: Enable Google Play Services for AR (ARcore)
+-------------
+- https://forum.xda-developers.com/nubia-z17-mini/themes/arcore-lineage-8-z17-mini-t3845740#2
+- https://github.com/tomthecarrot/arcore-for-all/issues/139#issuecomment-466587565
+- https://www.apkmirror.com/apk/google-inc/arcore/
+
+Step 4: Install Playground
+-------------
+Google Playground mod for Google Camera: https://www.celsoazevedo.com/files/android/google-camera/ar/
