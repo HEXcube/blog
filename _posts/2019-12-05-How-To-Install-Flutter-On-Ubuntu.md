@@ -21,3 +21,6 @@ Step 3: Install Android Studio
 -------------
 Install Android Studio to supply Flutter's Android platform dependencies. [How to install Android Studio on Ubuntu?](https://askubuntu.com/questions/634082/how-to-install-android-studio-on-ubuntu/941222#941222)
 
+Step 4: Install an editor
+-------------
+To enable Flutter support in Android Studio, IntelliJ or Visual Studio Code follow [this guide](https://flutter.dev/docs/get-started/editor?tab=vscode).
