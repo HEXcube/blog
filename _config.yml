@@ -22,12 +22,18 @@ footer-links:
   facebook: HEXcube
   flickr:
   github: HEXcube
+  gitlab: HEXcube
+  launchpad: hexcube
+  medium: HEXcube
+  deviantart: hexcube
   instagram:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: H3Xcube
-  stackoverflow: users/8386844/hexcube
+  stackoverflow:
+  stackexchange: users/8386844/hexcube
+  steam: HEXcube
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
