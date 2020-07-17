@@ -3,6 +3,14 @@ layout: default
 ---
 
 <article class="post">
+  <!--
+    Add a featured image to post header
+    https://github.com/barryclark/jekyll-now/issues/755
+  -->
+  {% if page.featimg %}
+  <img src="{{ site.baseurl }}/images/posts/{{ page.featimg }}">
+  {% endif %}
+
   <h1>{{ page.title }}</h1>
 
   <div class="entry">
