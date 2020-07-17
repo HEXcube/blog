@@ -1,0 +1,178 @@
+/********************/
+/*** Common Styles **/
+/********************/
+
+/*---- Font Weight ----*/
+.font-weight-light {
+  font-weight: 300;
+}
+
+.font-weight-medium {
+  font-weight: 500;
+}
+/*---- End - Font Weight ----*/
+
+/*---- Font Size ----*/
+.font-size-xx-small {
+  font-size: xx-small;
+}
+
+.font-size-x-small {
+  font-size: x-small;
+}
+
+.font-size-small {
+  font-size: small;
+}
+
+.font-size-default {
+  font-size: medium;
+}
+
+.font-size-large {
+  font-size: large;
+}
+
+.font-size-x-large {
+  font-size: x-large;
+}
+
+.font-size-xx-large {
+  font-size: xx-large;
+}
+
+.font-size-smaller {
+  font-size: smaller;
+}
+
+.font-size-larger {
+  font-size: larger;
+}
+/*---- End - Font Size ----*/
+
+/*---- Custom Borders ----*/
+.border-solid-1 {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.border-solid-2 {
+  border-style: solid;
+  border-width: 2px;
+}
+
+.border-dashed-2 {
+  border-style: dashed;
+  border-width: 2px;
+}
+/*---- End - Custom Borders ----*/
+
+.section-padding {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.navbar-spacing {
+  padding-top: 120px;
+}
+
+/*
+  Section Shadows
+
+  Derived from:
+  https://codepen.io/sdthornton/pen/wBZdXq
+  https://stackoverflow.com/questions/5917412/can-css3-box-shadowinset-do-only-one-or-two-sides-like-border-top#32224866
+*/
+.section-shadow {
+  box-shadow: inset 0 8px 6px -4px transparentize(black, 0.88), inset 0 4px 3px -2px transparentize(black, 0.76), inset 0 -8px 6px -4px transparentize(black, 0.88), inset 0 -4px 3px -2px transparentize(black, 0.76);
+}
+
+.section-shadow-top {
+  box-shadow: inset 0 8px 6px -4px transparentize(black, 0.88), inset 0 4px 3px -2px transparentize(black, 0.76);
+}
+
+.section-shadow-bottom {
+  box-shadow: inset 0 -8px 6px -4px transparentize(black, 0.88), inset 0 -4px 3px -2px transparentize(black, 0.76);
+}
+
+.section-outer-shadow {
+  box-shadow: 0 2px 6px transparentize(black, 0.84), 0 2px 6px transparentize(black, 0.77);
+}
+/* End - Section Shadows */
+
+/*
+  Material Card Shadows
+  Derived from https://codepen.io/sdthornton/pen/wBZdXq
+*/
+.material-card-shadow-light {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.material-card-shadow {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.material-card-shadow-heavy {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+/*---- End - Material Card Shadows ----*/
+
+/*---- Width & Height ----*/
+.minh-60vh {
+  min-height: 60vh;
+}
+
+.minh-75vh {
+  min-height: 75vh;
+}
+
+.minh-100vh {
+  min-height: 100vh;
+}
+/*---- End - Width & Height ----*/
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.transition-smooth {
+  transition: 0.4s;
+}
+
+.outline-0 {
+  outline: 0 !important;
+}
+
+.text-shadow-0 {
+  text-shadow: none;
+}
+
+.text-decoration-none {
+  text-decoration: none !important;
+}
+
+/*---- Round Corner ----*/
+.more-rounded {
+  border-radius: 0.5rem;
+}
+
+.really-rounded {
+  border-radius: 1rem;
+}
+
+.super-rounded {
+  border-radius: 1.5rem;
+}
+
+.rounded-ends {
+  /*
+    Set border radius to a really hight value to force rounded corners
+    https://stackoverflow.com/questions/29966499/border-radius-in-percentage-and-pixels-px-or-em/29966500#29966500
+  */
+  border-radius: 999px;
+}
+/*---- End - Round Corner ----*/

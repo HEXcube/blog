@@ -1,0 +1,14 @@
+/* Custom CSS animation effects for SVGs, icons & other elements */
+
+
+/*---- Zoom Effects ----*/
+.zoom-effect:hover {
+  transform: scale(1.05);
+}
+
+.zoom-trigger:hover {
+  .zoom-target {
+    transform: scale(1.05);
+  }
+}
+/*---- End - Zoom Effects ----*/
