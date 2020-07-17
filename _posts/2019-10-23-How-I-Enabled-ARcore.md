@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How I enabled "Google Play Services for AR" on my Mi A2
+featimg: google-play-services-for-ar.jpg
 ---
 
 [Google Play Services for AR (previously ARcore)](https://developers.google.com/ar/discover) is Google's platform for AR apps. It's supported on most developer friendly Android devices. However, Mi A2, despite being an Android One device, haven't gotten ARcore support yet. :disappointed: But there's a way to enable ARcore unofficially on most Android phones with capable hardware.
@@ -22,3 +23,8 @@ Step 3: Enable Google Play Services for AR (ARcore)
 Step 4: Install Playground (Optional)
 -------------
 If you installed Google Camera in Step 2, you can install Google Playground addon for it and play with AR stickers. Sideload Playground mod from [here](https://www.celsoazevedo.com/files/android/google-camera/ar/).
+
+---
+
+## Credits & Sources
+Featured image derived from [post by Pranob Mehrotra on XDA](https://www.xda-developers.com/google-play-services-for-ar-supports-motorola-edge-realme-6-samsung-galaxy-a31-41-sony-xperia-1-ii/)
