@@ -244,13 +244,20 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
-}
+  margin-bottom: 2em;
 
-.posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
+  .post-text {
+    padding: 0 2em 1.5em;
+  }
+
+  .entry {
+    text-align: justify;
+  }
+
+  .read-more {
+    text-transform: uppercase;
+    font-size: 15px;
+  }
 }
 
 .post {
@@ -265,11 +272,6 @@ nav {
 
   .comments {
     margin-top: 10px;
-  }
-
-  .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
   }
 }
 

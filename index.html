@@ -4,7 +4,7 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">
+    <article class="post really-rounded material-card-shadow-light overflow-hidden">
       <!--
         Adding an image to post headline in the front matter
         https://github.com/barryclark/jekyll-now/issues/755
@@ -13,13 +13,15 @@ layout: default
       <img src="{{ site.baseurl }}/images/featured/{{ post.featimg }}">
       {% endif %}
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <div class="post-text">
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <div class="entry">
-        {{ post.excerpt }}
+        <div class="entry">
+          {{ post.excerpt }}
+        </div>
+
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
 </div>
