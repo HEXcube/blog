@@ -4,14 +4,16 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post really-rounded material-card-shadow-light overflow-hidden">
-      <!--
+    <article class="post really-rounded material-card-shadow-light overflow-hidden zoom-trigger">
+      <div class="image-wrapper cursor-pointer overflow-hidden" onclick="location.href='{{ site.baseurl }}{{ post.url }}'">
+        <!--
         Adding an image to post headline in the front matter
         https://github.com/barryclark/jekyll-now/issues/755
-      -->
-      {% if post.featimg %}
-      <img src="{{ site.baseurl }}/images/featured/{{ post.featimg }}">
-      {% endif %}
+        -->
+        {% if post.featimg %}
+        <img class="zoom-target transition-smooth" src="{{ site.baseurl }}/images/featured/{{ post.featimg }}">
+        {% endif %}
+      </div>
 
       <div class="post-text">
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>

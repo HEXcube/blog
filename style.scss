@@ -246,6 +246,10 @@ nav {
 .posts > .post {
   margin-bottom: 2em;
 
+  .image-wrapper {
+    line-height: 0;
+  }
+
   .post-text {
     padding: 0 2em 1.5em;
   }
