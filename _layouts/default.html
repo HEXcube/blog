@@ -44,14 +44,14 @@
       {{ content }}
     </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-          {% include social-icons.html %}
-        </footer>
-      </div>
+    <div class="upper-footer">
+      {% include svg-icons.html %}
+      {% include social-icons.html %}
     </div>
+
+    <footer>
+      <p class="footer-text">&copy; <span id="copyright-year"></span> HEXcube</p>
+    </footer>
 
     {% include analytics.html %}
   </body>
