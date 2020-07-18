@@ -1,4 +1,4 @@
-.share-button {
+.social-icon {
   display:inline-block;
   margin:4px 6px;
   width:32px;
@@ -14,35 +14,35 @@
   transition: 0.4s;
 }
 
-.share-button:focus {
+.social-icon:focus {
   background-image: none;
 }
 
-.share-button:hover {
+.social-icon:hover {
   opacity: 0.75;
   transform: scale(1.125);
 }
 
-.share-button:active,
-.share-button:active:focus {
+.social-icon:active,
+.social-icon:active:focus {
   background-image: linear-gradient(to top, rgba(255,255,255,0.3), rgba(0,0,0,0.1));
 }
 
 
-.share-button i,
-.share-button span {
+.social-icon i,
+.social-icon span {
   margin:8px;
   vertical-align: middle;
   color: #FFF;
 }
 
 
-.share-button:active span {
+.social-icon:active span {
   color: #FFF;
   text-shadow:0 2px rgba(0,0,0,0.2);
 }
 
-.share-button span {
+.social-icon span {
   font-size: 24px;
   line-height: 26px;
   text-transform: uppercase;
@@ -51,7 +51,7 @@
   padding: 0;
 }
 
-.share-button i {
+.social-icon i {
   font-size: 16px;
   vertical-align: middle;
   text-align: center;
@@ -62,16 +62,16 @@
 }
 
 @media (min-width: 992px) {
-  .share-button {
+  .social-icon {
       width:64px;
       height: 64px;
   }
 
-  .share-button span {
+  .social-icon span {
       line-height: 52px;
   }
 
-  .share-button i {
+  .social-icon i {
       font-size: 32px;
       line-height: 66px;
       width: 64px;
@@ -80,14 +80,14 @@
 
 
 /* Colors */
-.share-button.twitter {background-color: #38A1F3;}
-.share-button.stack {background-color: #1E5397}
-.share-button.deviantart {background-color: #000;}
-.share-button.deviantart i {color: #50CC47;}
-.share-button.github {background-color: #4078C0;}
-.share-button.gitlab {background-color: #E2432A;}
-.share-button.launchpad {background-color: #EEE;}
-.share-button.launchpad i {color: #444;}
-.share-button.medium {background-color: #191919;}
-.share-button.steam {background-color: #1B2838;}
-.share-button.facebook {background-color: #3B5998;}
+.social-icon.twitter {background-color: #38A1F3;}
+.social-icon.stack {background-color: #1E5397}
+.social-icon.deviantart {background-color: #000;}
+.social-icon.deviantart i {color: #50CC47;}
+.social-icon.github {background-color: #4078C0;}
+.social-icon.gitlab {background-color: #E2432A;}
+.social-icon.launchpad {background-color: #EEE;}
+.social-icon.launchpad i {color: #444;}
+.social-icon.medium {background-color: #191919;}
+.social-icon.steam {background-color: #1B2838;}
+.social-icon.facebook {background-color: #3B5998;}
