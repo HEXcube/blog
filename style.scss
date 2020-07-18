@@ -293,11 +293,15 @@ nav {
 footer {
   display: flex;
   height: 2em;
-  color: white;
   background-color: #222;
 
-  .footer-text {
+  .footer-link {
     margin: auto;
+    color: $gray;
+
+    &:hover, &:active, &:focus {
+      color: #aa00ff;
+    }
   }
 }
 
