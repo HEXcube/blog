@@ -28,7 +28,7 @@ Step 4: Install an editor
 -------------
 To enable Flutter support in Android Studio, IntelliJ or Visual Studio Code follow [this guide](https://flutter.dev/docs/get-started/editor?tab=vscode).
 
-![Flutter extension on Visual Studio Code]({{ site.baseurl }}/images/posts/flutter-on-vscode.png "Flutter extension on Visual Studio Code")
+![Flutter extension on Visual Studio Code]({{ site.baseurl }}/assets/images/posts/flutter-on-vscode.png "Flutter extension on Visual Studio Code")
 
 That's all folks! You got everything installed on your Ubuntu machine to develop Flutter apps. 👍🏼
 
