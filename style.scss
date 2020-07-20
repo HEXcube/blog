@@ -158,7 +158,7 @@ img {
 */
 .navbar {
   font-size: 18px;
-  background-color: rgba(32, 32, 32, 0.9);
+  background-color: rgba($darkerGray, 0.9);
   box-shadow: 0 1px 3px rgba(black, 0.12), 0 1px 2px rgba(black, 0.24);
   position: fixed;
   left: 0;
@@ -238,7 +238,7 @@ img {
   
     .logo:hover,
     .nav-links:hover {
-      color: $purpleAccent;
+      color: $purple;
     }
   }
 }
@@ -295,23 +295,26 @@ img {
 //
 
 .upper-footer {
-  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: $darkGray;
   padding: 1em;
-  box-shadow: 0 -3px 6px rgba(0,0,0,0.16), 0 -3px 6px rgba(0,0,0,0.23);
-  text-align: center;
+  box-shadow: 0 -3px 6px rgba(black, 0.16), 0 -3px 6px rgba(black, 0.23);
 }
 
 footer {
   display: flex;
   height: 2em;
-  background-color: #222;
+  background-color: $darkerGray;
 
   .footer-link {
     margin: auto;
     color: $gray;
 
     &:hover, &:active, &:focus {
-      color: $purpleAccent;
+      color: $purple;
     }
   }
 }
