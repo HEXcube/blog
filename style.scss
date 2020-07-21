@@ -191,15 +191,27 @@ img {
   }
 
   .logo {
-    display: inline-block;
+    display: flex;
+    align-items: center;
     font-size: 22px;
-    margin-top: 10px;
+    margin-top: 12px;
     margin-left: 20px;
+
+    .logo-image {
+      width: 48px;
+    }
+
+    .logo-text {
+      color: inherit;
+      font-size: 28px;
+      margin: 0;
+      margin-left: 0.5em;
+    }
   }
 
   .navbar-toggle {
     position: absolute;
-    top: 10px;
+    top: 18px;
     right: 20px;
     cursor: pointer;
     color: rgba(white, 0.8);
@@ -215,7 +227,7 @@ img {
   
     .main-nav {
       display: flex;
-      margin-right: 30px;
+      margin-right: 1em;
       flex-direction: row;
       justify-content: flex-end;
     }

@@ -48,7 +48,10 @@
       <span class="navbar-toggle" id="js-navbar-toggle">
         <i class="fas fa-bars"></i>
       </span>
-      <a href="{{ site.baseurl }}/" class="logo">{{ site.name }}</a>
+      <a href="{{ site.baseurl }}/" class="logo">
+        <img class="logo-image" src="{{ site.avatar }}" />
+        <h1 class="logo-text">{{ site.name }}</h1>
+      </a>
       <ul class="main-nav" id="js-menu">
         <li>
           <a class="nav-links" href="{{ site.url }}" target="_blank">Website</a>
