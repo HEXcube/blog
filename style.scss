@@ -318,11 +318,12 @@ img {
 
 footer {
   display: flex;
+  align-items: center;
+  justify-content: center;
   height: 2em;
   background-color: $darkerGray;
 
   .footer-link {
-    margin: auto;
     color: $gray;
 
     &:hover, &:active, &:focus {
