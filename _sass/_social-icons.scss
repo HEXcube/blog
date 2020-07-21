@@ -13,7 +13,7 @@
   text-decoration: none;
   transition: 0.4s;
 
-  @media (min-width: 992px) {
+  @media screen and (min-width: $grid-breakpoint-lg) {
     width: 64px;
     height: 64px;
     font-size: 1.75em;

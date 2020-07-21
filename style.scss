@@ -226,7 +226,7 @@ img {
     }
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $grid-breakpoint-md) {
     display: flex;
     justify-content: space-between;
     padding-bottom: 0;
@@ -267,6 +267,11 @@ img {
 #main {
   padding-top: 5em;
   padding-bottom: 2em;
+  min-height: calc(100vh - 112px);
+
+  @media screen and (min-width: $grid-breakpoint-lg) {
+    min-height: calc(100vh - 144px);
+  }
 }
 
 .posts > .post {
