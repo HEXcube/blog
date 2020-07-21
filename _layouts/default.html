@@ -24,28 +24,11 @@
   </head>
 
   <body>
-    <!-- <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
-      </div>
-    </div> -->
     <!--
       Responsive navbar using Flexbox and Javascript
       https://itnext.io/how-to-build-a-responsive-navbar-using-flexbox-and-javascript-eb0af24f19bf
     -->
-    <nav class="navbar">
+    <nav id="custom-navbar" class="navbar scroll-top">
       <span class="navbar-toggle" id="js-navbar-toggle">
         <i class="fas fa-bars"></i>
       </span>
@@ -94,5 +77,8 @@
 
     <!-- Toggle Mobile Navbar Menu -->
     <script type="text/javascript" src="{{ site.baseurl }}/assets/js/toggle-mobile-navbar-menu.js" ></script>
+
+    <!-- Toggle class of navbar after a scroll offset -->
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/navbar-scroll-effect.js" ></script>
   </body>
 </html>

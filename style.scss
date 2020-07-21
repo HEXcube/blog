@@ -169,6 +169,7 @@ img {
   padding-left: 1em;
   padding-right: 1em;
   padding-bottom: 10px;
+  transition: 0.4s;
 
   .main-nav {
     list-style-type: none;
@@ -255,6 +256,12 @@ img {
   
     .navbar-toggle {
       display: none;
+    }
+
+    &.scroll-top {
+      height: 84px;
+      background-color: rgba(black, 0.5);
+      box-shadow: none;
     }
   }
 }
