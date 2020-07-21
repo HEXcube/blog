@@ -189,6 +189,10 @@ img {
     text-decoration: none;
     color: white;
     transition: 0.4s;
+
+    &:hover {
+      color: $purple;
+    }
   }
 
   .logo {
@@ -213,9 +217,13 @@ img {
     position: absolute;
     top: 18px;
     right: 20px;
-    cursor: pointer;
-    color: rgba(white, 0.8);
+    color: white;
     font-size: 24px;
+    transition: 0.4s;
+
+    &:hover {
+      color: $purple;
+    }
   }
 
   @media screen and (min-width: 768px) {
@@ -247,11 +255,6 @@ img {
   
     .navbar-toggle {
       display: none;
-    }
-  
-    .logo:hover,
-    .nav-links:hover {
-      color: $purple;
     }
   }
 }
