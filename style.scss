@@ -267,10 +267,14 @@ img {
 #main {
   padding-top: 5em;
   padding-bottom: 2em;
-  min-height: calc(100vh - 112px);
+  /*
+    SASS variable in calc() function
+    https://stackoverflow.com/questions/17982111/sass-variable-in-css-calc-function/20236515#20236515
+  */
+  min-height: calc(100vh - #{$footer-height});
 
   @media screen and (min-width: $grid-breakpoint-lg) {
-    min-height: calc(100vh - 144px);
+    min-height: calc(100vh - #{$footer-height-lg});
   }
 }
 

@@ -35,3 +35,7 @@ $grid-breakpoint-xl : 1200px;
     @content;
   }
 }
+
+// Height of footer
+$footer-height: 112px;
+$footer-height-lg: 144px;
