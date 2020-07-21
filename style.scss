@@ -179,6 +179,10 @@ img {
     }
   }
 
+  .expanded-menu {
+    display: block;
+  }
+
   .nav-links,
   .logo {
     text-decoration: none;
@@ -200,10 +204,6 @@ img {
     cursor: pointer;
     color: rgba(white, 0.8);
     font-size: 24px;
-  }
-
-  #js-menu.active {
-    display: block;
   }
 
   @media screen and (min-width: 768px) {
