@@ -1,5 +1,5 @@
 ---
----
+--- 
 
 //
 // IMPORTS
@@ -20,7 +20,7 @@ html {
 }
 
 body {
-	background: $white;
+  background: $white;
   font: 18px/1.4 $montserrat;
   color: $darkGray;
 }
@@ -32,7 +32,12 @@ body {
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $comfortaa;
   color: $darkerGray;
   font-weight: bold;
@@ -48,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
+
   a {
     color: inherit;
   }
@@ -73,13 +79,16 @@ p {
 a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
+  cursor: pointer;
+
+  &:hover,
+  &:active {
     color: $blue;
   }
 }
 
-ul, ol {
+ul,
+ol {
   margin: 15px 0;
   padding-left: 30px;
 }
@@ -92,19 +101,25 @@ ol {
   list-style-type: decimal;
 }
 
-ol ul, ul ol, ul ul, ol ol {
+ol ul,
+ul ol,
+ul ul,
+ol ol {
   margin: 0;
 }
 
-ul ul, ol ul {
+ul ul,
+ol ul {
   list-style-type: circle;
 }
 
-em, i {
+em,
+i {
   font-style: italic;
 }
 
-strong, b {
+strong,
+b {
   font-weight: bold;
 }
 
@@ -127,6 +142,7 @@ img {
   color: $black;
   background: $lightGray;
 }
+
 ::selection {
   color: $black;
   background: $lightGray;
@@ -136,12 +152,12 @@ img {
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /*********************/
@@ -233,35 +249,42 @@ img {
     padding-bottom: 0;
     height: 70px;
     align-items: center;
-  
+
     .main-nav {
       display: flex;
       margin-right: 1em;
       flex-direction: row;
       justify-content: flex-end;
     }
-  
+
     .main-nav li {
       margin: 0;
     }
-  
+
     .nav-links {
       margin-left: 40px;
     }
-  
+
     .logo {
       margin-top: 0;
       margin-left: 20px;
     }
-  
+
     .navbar-toggle {
       display: none;
     }
 
     &.scroll-top {
       height: 84px;
-      background-color: rgba(black, 0.5);
+      background-color: white;
       box-shadow: none;
+
+      .nav-links,
+      .logo {
+        &:not(:hover) {
+          color: $darkGray;
+        }
+      }
     }
   }
 }
@@ -285,7 +308,7 @@ img {
   }
 }
 
-.posts > .post {
+.posts>.post {
   .image-wrapper {
     line-height: 0;
   }
@@ -346,7 +369,9 @@ footer {
   .footer-link {
     color: $gray;
 
-    &:hover, &:active, &:focus {
+    &:hover,
+    &:active,
+    &:focus {
       color: $purple;
     }
   }
