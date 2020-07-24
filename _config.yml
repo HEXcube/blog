@@ -55,6 +55,10 @@ url: https://hexcube.github.io
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: "/blog"
 
+# Fix unnecessarily generated assets/css/style.css file
+# Styles are mysteriously included in the CSS build - https://github.com/jekyll/jekyll/issues/7478
+theme: null
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
