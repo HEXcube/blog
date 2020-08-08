@@ -19,7 +19,7 @@ avatar: https://hexcube.github.io/blog/assets/images/branding/hexcube-logo.svg
 footer-links:
   dribbble:
   email:
-  facebook: HEXcube
+  facebook:
   flickr:
   github: HEXcube
   gitlab: HEXcube
@@ -27,12 +27,12 @@ footer-links:
   medium: HEXcube
   deviantart: hexcube
   instagram:
-  linkedin:
+  linkedin: RohanVilloth
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: H3Xcube
-  stackoverflow:
-  stackexchange: users/8386844/hexcube
+  stackoverflow: 8386844
+  stackexchange:
   steam: HEXcube
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/

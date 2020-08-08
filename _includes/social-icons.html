@@ -1,18 +1,42 @@
+{% if site.footer-links.linkedin %}
+<a class="social-icon linkedin" href="https://linkedin.in/in/{{ site.footer-links.linkedin }}" target="_blank">
+  <i class="fab fa-linkedin-in"></i>
+</a>
+{% endif %}
+
+{% if site.footer-links.medium %}
+<a class="social-icon medium" href="https://medium.com/@{{ site.footer-links.medium }}" target="_blank">
+  <i class="fab fa-medium"></i>
+</a>
+{% endif %}
+
 {% if site.footer-links.twitter %}
 <a class="social-icon twitter" href="https://twitter.com/{{ site.footer-links.twitter }}" target="_blank">
   <i class="fab fa-twitter"></i>
 </a>
 {% endif %}
 
-{% if site.footer-links.stackexchange %}
-<a class="social-icon stack" href="https://stackexchange.com/{{ site.footer-links.stackexchange }}" target="_blank">
-  <i class="fab fa-stack-exchange"></i>
+{% if site.footer-links.facebook %}
+<a class="social-icon facebook" href="https://facebook.com/{{ site.footer-links.facebook }}" target="_blank">
+  <i class="fab fa-facebook"></i>
 </a>
 {% endif %}
 
 {% if site.footer-links.deviantart %}
 <a class="social-icon deviantart" href="https://{{ site.footer-links.deviantart }}.deviantart.com" target="_blank">
   <i class="fab fa-deviantart"></i>
+</a>
+{% endif %}
+
+{% if site.footer-links.stackoverflow %}
+<a class="social-icon stackoverflow" href="https://stackoverflow.com/u/{{ site.footer-links.stackoverflow }}" target="_blank">
+  <i class="fab fa-stack-overflow"></i>
+</a>
+{% endif %}
+
+{% if site.footer-links.stackexchange %}
+<a class="social-icon stackexchange" href="https://stackexchange.com/users/{{ site.footer-links.stackexchange }}" target="_blank">
+  <i class="fab fa-stack-exchange"></i>
 </a>
 {% endif %}
 
@@ -34,20 +58,9 @@
 </a>
 {% endif %}
 
-{% if site.footer-links.medium %}
-<a class="social-icon medium" href="https://medium.com/@{{ site.footer-links.medium }}" target="_blank">
-  <i class="fab fa-medium"></i>
-</a>
-{% endif %}
-
 {% if site.footer-links.steam %}
 <a class="social-icon steam" href="https://steamcommunity.com/id/{{ site.footer-links.steam }}" target="_blank">
   <i class="fab fa-steam"></i>
 </a>
 {% endif %}
 
-{% if site.footer-links.facebook %}
-<a class="social-icon facebook" href="https://facebook.com/{{ site.footer-links.facebook }}" target="_blank">
-  <i class="fab fa-facebook"></i>
-</a>
-{% endif %}
